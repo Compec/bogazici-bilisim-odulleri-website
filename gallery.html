@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="author" content="Boğaziçi Üniversitesi Bilişim Kulübü - Compec">
+    <meta name="description"
+        content="Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC'in bu sene altıncısını düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarıyla bilişim sektöründe faaliyet gösteren kişi ve kuruluşların enlerinin belirleneceği bir oylamadır.">
+    <meta name="keywords" content="boğaziçi, bilişim, ödül, üniversite, compec, teknoloji, sıralama">
+    <meta name="google-site-verification" content="pqd3RxyKp-Zb_g_4hTqdZJL-vUh3Mz4Pmbgc3hOGIy8" />
+
+    <link rel="shortcut icon" href="assets/images/bbo_logo_big.png">
+
+    <title>Boğaziçi Bilişim Ödülleri</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins/slick.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/streamline-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="assets/css/event.css" rel="stylesheet">
+
+
+    <link href="assets/css/themes/blue.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="assets/js/modernizr.min.js"></script>
+
+    <script src="assets/js/plugins/pace.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-109406148-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "location": {
+                "@type": "Place",
+                "name": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Bebek Mahallesi",
+                    "addressLocality": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
+                    "postalCode": "34342",
+                    "addressRegion": "Istanbul",
+                    "addressCountry": "Turkey"
+                }
+            },
+            "name": "Boğaziçi Bilişim Ödülleri Töreni",
+            "startDate": "2018-12-20T19:00",
+            "description": "Boğaziçi Bilişim Ödülleri, En’lerin söz sahibi olduğu, 2014’ten bu yana her yıl bilişim ve teknoloji alanında öncü isimlerin ödüllendirildiği görkemli bir ödül törenidir.",
+            "endDate": "2018-12-20T23:00",
+            "image": "https://bogazicibilisimodulleri.com/assets/images/event-image.jpg"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "logo": "https://bogazicibilisimodulleri.com/assets/images/bbo_sadece_logo.png",
+            "url": "https://bogazicibilisimodulleri.com",
+            "sameAs": [
+                "https://www.facebook.com/BounBilisimOdulleri",
+                "http://instagram.com/bounbilisimodulleri",
+                "https://twitter.com/BilisimOdulleri"
+            ]
+        }
+    </script>
+    <style>
+        .logo-container {
+            width: 80px;
+            margin: 12px auto;
+            padding-bottom: 12px;
+        }
+
+        .logo-container img {
+            width: 100%;
+        }
+
+        .company {
+            right: 20px;
+            display: none;
+        }
+
+        .header_bottom-bg {
+            width: 96%;
+            margin: 10px auto;
+        }
+
+        .header_bottom-bg a {
+            font-size: 18px !important;
+        }
+
+        .header_bottom-bg .fa {
+            font-size: 1.3em;
+        }
+
+        .footer-logo {
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .footer-logo img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 600px) {
+            .logo-container {
+                width: 100px;
+            }
+
+            .header_bottom-bg a {
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .header_bottom-bg {
+                width: 400px;
+            }
+        }
+
+        @media screen and (min-width: 960px) {
+            .logo-container {
+                position: absolute;
+                bottom: 10px;
+                color: white;
+            }
+
+            .organizator {
+                right: 60px;
+            }
+
+            .logo-container img {
+                width: 140px;
+            }
+
+            .logo-container h3 {
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+            .header_bottom-bg a {
+                width: 400px;
+            }
+
+            .header_bottom-bg {
+                margin-bottom: 20px;
+            }
+
+            .countdown_wrap {
+                margin-top: 40px;
+            }
+
+            .countdown_title {
+                margin: 20px 0;
+            }
+
+            .footer-logo {
+                width: 30%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
+
+
+
+
+
+    <div class="preloader"></div>
+
+    <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-visible">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.html"><img src="assets/images/bbo_sadece_logo.png"
+                        alt="Boğaziçi Bilişim Ödülleri" height="36px"> </a>
+                <!-- <a class="navbar-brand navbar-sponsor" href="https://www.garanti.com.tr/tr" target="_blank"><img
+                        src="assets/images/garanti-logo.png" alt="Garanti Bankası" height="36px"> </a> -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="/index.html">BBÖ</a></li>
+                    <li><a href="#gallery">GALERİ</a></li>
+                    <li><a href="#speakers">KAZANANLAR</a></li>
+                    <li><a href="#social">SOSYAL MEDYADA BBÖ
+                    <li><a href="#venue" class="hidden-sm">HARİTA</a></li>
+                    <li><a href="#contact">İLETİŞİM</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="padding: 4% 0;">Galeri</h2>
+            </div>
+            <div class="nav-center bottom-space-lg">
+
+
+
+            </div>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="photo-gallery">
+                    <div class="popup-gallery">
+
+                        <div id="gallery-firee" class="row">
+
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/6016x4016/b75a2e50bd/dsc_4538.JPG"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/6016x4016/b75a2e50bd/dsc_4538.JPG"
+                                        alt="" class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/6016x4016/8a9f0e046e/dsc_4253.JPG"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/6016x4016/8a9f0e046e/dsc_4253.JPG"
+                                        alt="" class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/5472x3648/0217141704/_mg_7609.JPG"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/5472x3648/0217141704/_mg_7609.JPG"
+                                        alt="" class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/5472x3648/108c095e54/_mg_7612.JPG"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/5472x3648/108c095e54/_mg_7612.JPG"
+                                        alt="" class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/5184x3456/884a4456e4/_mg_0919.JPG"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/5184x3456/884a4456e4/_mg_0919.JPG"
+                                        alt="" class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/1080x720/c07b210f5d/2.jpg"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/1080x720/c07b210f5d/2.jpg" alt=""
+                                        class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/1080x720/5b7cfd58b6/5.jpg"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/1080x720/5b7cfd58b6/5.jpg" alt="ew"
+                                        class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><a
+                                    href="//a.storyblok.com/f/65511/1080x720/64b2def94a/6.jpg"><img
+                                        src="//img2.storyblok.com/300x200/f/65511/1080x720/64b2def94a/6.jpg" alt="1"
+                                        class="img-responsive wow fadeIn" data-wow-delay="0.4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h4>haberler</h4>
+            </div>
+            <div class="nav-center bottom-space-lg">
+
+
+
+            </div>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="photo-gallery">
+                    <div class="popup-gallery">
+                        <div id="gallery-fire" class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="assets/images/gallery/6 (Small).JPG" title="">
+                                            <img src="assets/images/gallery/6 (Small).JPG" alt="gallery image"
+                                                class="img-responsive wow fadeIn" data-wow-delay="0.4s">
+                                            
+                                            </a> <span>assadasd</span>
+                                               
+                                    </div>
+                                   
+                        </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+
+
+
+
+    <section class="highlight" id="speakers">
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h4></h4>
+            </div>
+            <div id="winners-2019" class="speaker-slider">
+                <!-- <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s">
+                        <img src="assets/images/2014/haluklevent.jpg" alt="avatar" class="img-responsive center-block">
+                        <p  >Sosyal Medyayı En Etkin Kullanan Sanatçı</p>
+                        <span>Haluk Levehnt</span>
+                    </div> -->
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script> -->
+
+
+
+    <winners>
+        <section class="highlight" id="speakers">
+            <div class="container">
+                <div class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>2018 Kazananları</h4>
+                </div>
+                <div id="winners-2018" class="speaker-slider slick-initialized slick-slider ">
+                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
+                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/640x640/c5e638a287/msi-gaming_msi_logo-spirit-horizontal-white-black_red_wtite-1.png"
+                            alt="MSI" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi PC Markası</p><span>MSI</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/300x300/1fe295b12e/turkishairlines03-1.jpg"
+                            alt="Türk Hava Yolları" class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En Etkin Kullanan Marka</p><span>Türk Hava Yolları</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/250x250/f06d7f330a/250px-supermassivelogo.png"
+                            alt="Bahçeşehir SuperMassive" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi E-Spor Takımı</p><span>Bahçeşehir SuperMassive</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/686x686/241bc72440/images-13.jpeg" alt="Kafa Topu 2"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Yerli Dijital Oyun</p><span>Kafa Topu 2</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/628x628/e15b8c05e7/trivago-logo-square-no-trademark.jpg"
+                            alt=" Trivago" class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Seyahat Rezervasyon Sitesi</p><span> Trivago</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/640x640/6c218491c0/samsung-logo-square.jpg" alt="Samsung"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Akıllı Telefon Markası</p><span>Samsung</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/640x640/fbb40fc1cd/images-12.jpeg" alt="Google Cloud"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Bulut Platformu</p><span>Google Cloud</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/400x400/3e74bde718/logitechlogo.jpg" alt="Logitech"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Ekipman Markası</p><span>Logitech</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/640x640/fd82260e8e/images-5.png" alt="Zeplin"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Teknolojik Girişim</p><span>Zeplin</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/1200x1200/db79d911a1/netflixlogo-0-0.jpg" alt="Netflix"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Eğlence Platformu</p><span>Netflix</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/900x900/aae4ae4678/a6b94e.png" alt="Webtekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi İçerik Sitesi</p><span>Webtekno</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/738x738/03cea8d55f/images-4.png" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Telekomünikasyon Şirketi</p><span>Turkcell</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/500x500/043d9a5376/images-10.jpeg" alt="UNLOSTV"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Yayıncısı</p><span>UNLOSTV</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
+                            src="//a.storyblok.com/f/65511/670x670/d8ae2ea26b/dertten-uzak-yasamaya-calisiyoruz-8485582.Jpeg"
+                            alt="Ezgi Mola &amp; Enis Arıkan" class="img-responsive center-block"
+                            style="height: 150px;">
+                        <p>Sosyal Medyayı En Etkin Kullanan Ünlü</p><span>Ezgi Mola &amp; Enis Arıkan</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
+                            src="//a.storyblok.com/f/65511/2247x2247/20f945e945/bundle.jpg" alt="Bundle"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Mobil Haber Uygulaması</p><span>Bundle</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
+                            src="//a.storyblok.com/f/65511/520x520/bc8adf7ffe/hadi-logo.png" alt="Hadi"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Yerli Mobil Uygulaması</p><span>Hadi</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
+                            src="//a.storyblok.com/f/65511/300x300/874dd5b609/yemek-sepeti-logo-0961a3a1fd-seeklogo-com.png"
+                            alt="Yemeksepeti" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi E-ticaret Sitesi</p><span>Yemeksepeti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
+                            src="//a.storyblok.com/f/65511/750x750/fb4787a068/babala-logo.jpg" alt="BaBaLa TV"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Youtube İçerik Üreticisi</p><span>BaBaLa TV</span>
+                    </div></div>
+                  
+                </div>
+            </div>
+        </section>
+        <section class="highlight" id="speakers">
+            <div class="container">
+                <div class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>2017 Kazananları</h4>
+                </div>
+                <div id="winners-2017" class="speaker-slider slick-initialized slick-slider ">
+                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
+                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/275x275/c3efd1baf8/indir.png" alt="Netflix"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın İnternet Dizi-Film Platformu &amp; Sosyal Medyayı En İyi Kullanan Marka</p>
+                        <span>Netflix</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/324x324/fb48ef4262/givin.png" alt="Givin"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Compec Özel Ödülü</p><span>Givin</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/5e0440fcc9/geekyapar.png" alt="Geekyapar"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi İçerik Sitesi</p><span>Geekyapar</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/bb9496200f/yemeksepeti.jpg" alt="Yemeksepeti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın E-Ticaret Sitesi</p><span>Yemeksepeti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a3ad3a9aa3/turkcell.jpg" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Mobil Operatörü</p><span>Turkcell</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/8dbbba72fc/vatan.jpg" alt="Vatan Bilgisayar"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknoloji Mağazası</p><span>Vatan Bilgisayar</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/ed07e5ced9/barisozcan.jpg" alt="Barış Özcan"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Youtube Kanalı</p><span>Barış Özcan</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/c803b72cae/galaxynote8.jpg"
+                            alt="Samsung Galaxy Note 8" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Akıllı Telefonu</p><span>Samsung Galaxy Note 8</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/800x800/f7d526a3d9/othersapp-uygulama.png" alt="Others"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi E-Girişimi</p><span>Others</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/902a7e5a4b/webtekno.jpg" alt="WebTekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknohaber Sitesi</p><span>WebTekno</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/7185eff35e/turkcell.jpg" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın İnternet Servis Sağlayıcısı</p><span>Turkcell</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/be14bb7bb6/garanti.jpg" alt="Garanti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Teknolojiyi En İyi Kullanan Banka</p><span>Garanti</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/0259b40dc3/google.jpg" alt="Google"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Arama Motoru</p><span>Google</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/120x120/6fb032b29b/getir.jpg" alt="Getir"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Yerli Mobil Uygulaması</p><span>Getir</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/8dc77ef80e/msi.png" alt="MSI"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Bilgisayar Markası</p><span>MSI</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/ec3cbc0ff4/googledrive.jpg" alt="Google Drive"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bulut Depolama Uygulaması</p><span>Google Drive</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/5e6059dc98/ntv.jpg" alt="Ntv.com.tr"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Mobil Haber Uygulaması</p><span>Ntv.com.tr</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/c41d6433d5/1907fenerbahce.jpg" alt="1907 Fenerbahçe"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi E-Spor Takımı</p><span>1907 Fenerbahçe</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a739c54f77/spotify.jpg" alt="Spotify"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Müzik Platformu</p><span>Spotify</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/5839a42edc/unlostv.png" alt="Unlost"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Oyun Yayıncısı</p><span>Unlost</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/5a105d1c76/haluklevent.jpg" alt="Haluk Levent"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En Etkin Kullanan Sanatçı</p><span>Haluk Levent</span>
+                    </div></div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="highlight" id="speakers">
+            <div class="container">
+                <div class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>2016 Kazananları</h4>
+                </div>
+                <div id="winners-2016" class="speaker-slider slick-initialized slick-slider">
+                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
+                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/28925ec330/leyladansonra.png" alt="Leyla'dan Sonra"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Compec Özel Ödülü</p><span>Leyla'dan Sonra</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/d03227a6fe/izlesene.jpg" alt="İzlesene"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Yerli Video Sitesi</p><span>İzlesene</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/c34cd8d0f7/webtekno.jpg" alt="WebTekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Youtube Kanalı</p><span>WebTekno</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/888b1aa435/eset.png" alt="ESET"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Antivirüs-Güvenlik Şirketi</p><span>ESET</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/1d5ff65ce1/onedio_logo.jpg" alt="Onedio"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi İçerik Sitesi</p><span>Onedio</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e666dd40c6/sahibinden.jpg" alt="Sahibinden.com"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın E-Ticaret Sitesi</p><span>Sahibinden.com</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/3263a7706a/vatan.jpg" alt="Vatan Bilgisayar"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknoloji Mağazası</p><span>Vatan Bilgisayar</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/bd142efef0/eksisozluk_logo.jpg" alt="Ekşi Sözlük"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Sözlük Topluluğu</p><span>Ekşi Sözlük</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/170x170/2232591827/netmarble.png" alt="Netmarble"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Oyun Şirketi</p><span>Netmarble</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a53db1781c/samsunggalaxys7.png"
+                            alt="Samsung Galaxy S7" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Akıllı Telefonu</p><span>Samsung Galaxy S7</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/2e456d32d5/chip.jpg" alt="Chip"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bilişim Dergisi</p><span>Chip</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/b9da204bdd/turkcell-superonline.jpg"
+                            alt="Turkcell Superonline" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın İnternet Servis Sağlayıcısı</p><span>Turkcell Superonline</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/7d78bc3cbe/hopi.png" alt="HOPİ"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Yerli Mobil Uygulaması</p><span>HOPİ</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/16b6d26213/asus.jpg" alt="ASUS"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Bilgisayar Markası</p><span>ASUS</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/ddf32f4a35/googledrive.jpg" alt="Google Drive"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bulut Depolama Uygulaması</p><span>Google Drive</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/b16387b969/googlechrome_logo.jpg" alt="Google Chrome"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Tarayıcı</p><span>Google Chrome</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/acad44be50/demetevgar.jpg" alt="Demet Evgar"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En İyi Kullanan Sanatçı</p><span>Demet Evgar</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/64b05aabc2/ntv.jpg" alt="Ntv.com.tr"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Haber Sitesi</p><span>Ntv.com.tr</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/fd014606c4/turk_hava_yollari.jpg"
+                            alt="Türk Hava Yolları" class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En Etkin Kullanan Marka</p><span>Türk Hava Yolları</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a3ad3a9aa3/turkcell.jpg" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Mobil Operatörü</p><span>Turkcell</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/902a7e5a4b/webtekno.jpg" alt="WebTekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknohaber Sitesi</p><span>WebTekno</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/be14bb7bb6/garanti.jpg" alt="Garanti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Teknolojiyi En İyi Kullanan Banka</p><span>Garanti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/0259b40dc3/google.jpg" alt="Google"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Arama Motoru</p><span>Google</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a739c54f77/spotify.jpg" alt="Spotify"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Müzik Platformu</p><span>Spotify</span>
+                    </div></div>
+                   
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="highlight" id="speakers">
+            <div class="container">
+                <div class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>2015 Kazananları</h4>
+                </div>
+                <div id="winners-2015" class="speaker-slider slick-initialized slick-slider">
+                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
+                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/099a7bcbd3/getem.jpg" alt="GETEM"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Compec Özel Ödülü</p><span>GETEM</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/d87ca49963/zaytung.png" alt="Zaytung"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi İçerik Sitesi</p><span>Zaytung</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/957b91d5c7/eksisozluk_logo.jpg" alt="Ekşi Sözlük"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Sözlük Topluluğu</p><span>Ekşi Sözlük</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/cf9c894e2d/asus.jpg" alt="ASUS"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Bilgisayar Markası</p><span>ASUS</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/10c14791f2/izlesene.jpg" alt="İzlesene"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Video Sitesi</p><span>İzlesene</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/239d29c8ff/webtekno.jpg" alt="WebTekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Youtube Kanalı</p><span>WebTekno</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/4de58ca356/eset.png" alt="ESET"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Antivirüs</p><span>ESET</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/1c630c58d3/turkcell-superonline.jpg"
+                            alt="Turkcell Superonline" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın İnternet Servis Sağlayıcısı</p><span>Turkcell Superonline</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/53bfa08cd5/vatan.jpg" alt="Vatan Bilgisayar"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknoloji Mağazası</p><span>Vatan Bilgisayar</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/72ba782339/turkcell.jpg" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Mobil Operatörü</p><span>Turkcell</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/19890cfe08/webtekno-1.jpg" alt="WebTekno"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknohaber Sitesi</p><span>WebTekno</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/ab999b500f/sahibinden.jpg" alt="Sahibinden.com"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın E-Ticaret Sitesi</p><span>Sahibinden.com</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/aaee79eac5/garanti.jpg" alt="Garanti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Teknolojiyi En İyi Kullanan Banka</p><span>Garanti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/1626218837/s6edge.jpg" alt="Samsung S6 Edge"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Akıllı Telefonu</p><span>Samsung S6 Edge</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e08673a4a2/spotify.jpg" alt="Spotify"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Müzik Sitesi</p><span>Spotify</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e5da335c55/googledrive.jpg" alt="Google Drive"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bulut Depolama Uygulaması</p><span>Google Drive</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/f2e4d4e266/googlechrome_logo.jpg" alt="Google Chrome"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Tarayıcı</p><span>Google Chrome</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/3f8e4826e1/burcuesmersoy.jpg" alt="Burcu Esmersoy"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En İyi Kullanan Sanatçı</p><span>Burcu Esmersoy</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/6f3f9e45ff/google.jpg" alt="Google"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Arama Motoru</p><span>Google</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/c03bbc1ced/ntv.jpg" alt="Ntv.com.tr"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Haber Sitesi</p><span>Ntv.com.tr</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/6e8eb7cd96/hopi-1.png" alt="Hopi"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Yenilikçi Mobil Uygulaması</p><span>Hopi</span>
+                    </div></div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="highlight" id="speakers">
+            <div class="container">
+                <div class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>2014 Kazananları</h4>
+                </div>
+                <div id="winners-2014" class="speaker-slider slick-initialized slick-slider">
+                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
+                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/8cbf40e5b2/yemeksepeti.jpg" alt="Yemek Sepeti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın E-Ticaret Sitesi</p><span>Yemek Sepeti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/ccc7ec5e11/turkcell.jpg" alt="Turkcell"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Mobil Operatörü</p><span>Turkcell</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e80ce40369/turkcell-superonline.jpg"
+                            alt="Turkcell Superonline" class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın İnternet Servis Sağlayıcısı</p><span>Turkcell Superonline</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e118ed3e3b/teknosa.jpg" alt="Teknosa"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknoloji Mağazası</p><span>Teknosa</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/179x179/b18bb8f18e/spotify-0-9-for-ios-app-icon-small.png"
+                            alt="Spotify" class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Müzik Sitesi</p><span>Spotify</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/4cf0df6062/playstation4.jpg" alt="Playstation 4"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Oyun Konsolu</p><span>Playstation 4</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/534937dec8/donanimhaber.jpg" alt="Donanım Haber"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Teknohaber Sitesi</p><span>Donanım Haber</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/301039239c/iphone5s.jpg" alt="iPhone 5s"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın En İyi Akıllı Telefonu</p><span>iPhone 5s</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/791821d814/incisozluk_logo.jpg" alt="İnci Sözlük"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Sözlük Topluluğu</p><span>İnci Sözlük</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/73c8b5e7df/googledrive.jpg" alt="Google Drive"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bulut Depolama Uygulaması</p><span>Google Drive</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/e4f36511e2/googlechrome_logo.jpg" alt="Google Chrome"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Tarayıcı</p><span>Google Chrome</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/359cbc937a/google.jpg" alt="Google"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Arama Motoru</p><span>Google</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/a25483c53f/cnnturkcom.jpg" alt="Cnnturk.com"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Haber Sitesi</p><span>Cnnturk.com</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/fd9da0564a/chip.jpg" alt="Chip"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Bilişim Dergisi</p><span>Chip</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/7e9a36da2f/bitaksi.jpg" alt="BiTaksi"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Yılın Yenilikçi Mobil Uygulaması</p><span>BiTaksi</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/b31934bbac/onedio_logo.jpg" alt="Onedio"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>En İyi Çıkış Yapan Site</p><span>Onedio</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/661d5a719b/garanti.jpg" alt="Garanti"
+                            class="img-responsive center-block" style="height: 150px;">
+                        <p>Teknolojiyi En İyi Kullanan Banka</p><span>Garanti</span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/6ccad0b039/batesmotelpro_logo.jpg"
+                            alt="Batesmotelpro" class="img-responsive center-block" style="height: 150px;">
+                        <p>Sosyal Medyayı En İyi Kullanan Sanatçı</p><span>Batesmotelpro</span>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
+                            src="//a.storyblok.com/f/65511/150x150/cac2574b55/alkislarlayasiyorum.jpg"
+                            alt="Alkışlarla Yaşıyorum" class="img-responsive center-block" style="height: 150px;">
+                        <p>Compec Özel Ödülü</p><span>Alkışlarla Yaşıyorum</span>
+                    </div></div>
+                    
+                </div>
+            </div>
+
+        </section>
+    </winners>
+    <section class="embed_twitter">
+        <div class="container" id="social">
+            <div class="section-title wow fadeInUp">
+                <h4>Sosyal Medyada BBÖ</h4>
+                <p>Boğaziçi Bilişim Ödülleri'nde geçen seneye dair öne çıkan tweetler:</p>
+            </div>
+            <div id="tweetss" class="">
+               
+                <div class="row">
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="en" data-width="550" data-link-color="#4eae49"
+                        data-align="center">
+                        <a href="https://twitter.com/Medianova_CDN/status/941336258877440000"></a>
+                    </blockquote>
+                </div>
+
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/bundleapp/status/1075814679736389633"></a>
+                    </blockquote>
+                </div></div>
+                <div class="row">
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/webtekno/status/1076017209745518597"></a>
+                    </blockquote>
+                </div>
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/dhateknoloji/status/1077090054344974336"></a>
+                    </blockquote>
+                </div></div>
+                <div class="row">
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/digitalage/status/1077096550436913154"></a>
+                    </blockquote>
+                </div>
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/thebrandage/status/1077096839743188993"></a>
+                    </blockquote>
+                </div></div>
+                <div class="row">
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/HurriyetTekno/status/1077297863468699648"></a>
+                    </blockquote>
+                </div>
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/bilgizone/status/1077473804279074816"></a>
+                    </blockquote>
+                </div></div>
+                <div class="row">
+                <div class="col-sm-12 col-md-6 embed-tweet-item">
+                    <blockquote class="twitter-tweet" lang="tr" data-width="550" data-link-color="#4eae49"
+                        data-align="center"><a href="https://twitter.com/Medianova_CDN/status/941336258877440000"></a>
+                    </blockquote>
+                </div></div>
+                <div class="row">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="g-maps" id="venue">
+        <div class="section-title">
+            <h3>HARİTA</h3>
+        </div>
+        <iframe class="map-container" width="100%" style="display: block;
+        height: 500px;
+    " sandbox="allow-scripts allow-same-origin" layout="responsive"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6lBd43pvJ74B2JyvSdsB4xWWdWuBdBFc&q=albert+long+hall">
+        </iframe>
+        <!-- 
+        <div class="map" id="map_canvas" data-maplat="41.083182" data-maplon="29.052444" data-mapzoom="15"
+            data-height="500" data-info="Albert Long Hall, Boğaziçi Üniversitesi, İstanbul, Türkiye"></div> -->
+    </div>
+
+
+
+
+    <div class="container" id="contact">
+        <div class="section-title">
+            <h2>İLETİŞİM</h2>
+            <br>
+            <p>Etkinlik ile ilgili soru ve görüşleriniz için bizimle iletişime geçebilirsiniz.</p>
+        </div>
+        <h4 class="text-center">
+            <a href="/cdn-cgi/l/email-protection#22404d574c404b4e4b514b4f4d46574e4e47504b62454f434b4e0c414d4f"
+                class="icon-block">
+                <i class="fa fa-envelope"> </i><span style="padding-left: 5px;"><span class="__cf_email__"
+                        data-cfemail="a2c0cdd7ccc0cbcecbd1cbcfcdc6d7cecec7d0cbe2c5cfc3cbce8cc1cdcf">[email&#160;protected]</span></span>
+            </a>
+        </h4>
+        <br>
+
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/BounBilisimOdulleri?fref=ts" class="wow zoomIn"> <i
+                        class="fa fa-facebook"></i> </a>
+                <a href="https://twitter.com/BilisimOdulleri" class="wow zoomIn" data-wow-delay="0.2s"> <i
+                        class="fa fa-twitter"></i> </a>
+                <a href="https://www.instagram.com/bounbilisimodulleri" class="wow zoomIn" data-wow-delay="0.2s"> <i
+                        class="fa fa-instagram"></i> </a>
+            </div>
+            <a href="http://compec.org" target="_blank">
+                <div class="footer-logo">
+                    <img src="assets/images/compec_mavi.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü">
+                </div>
+            </a>
+            <p> <small class="text-muted">Copyright © 2019. Tüm hakkı saklıdır. Etkinliğin tüm hakları Compec'e
+                    (Boğaziçi Üniversitesi Bilişim Kulübü) aittir ve etkinliği haber vermeksizin değiştirme yetkisini
+                    elinde tutar.</small> <br>
+                <small class="text-muted"> <a href="https://dev.compec.org">Compec Dev ®</a> </small>
+
+            </p>
+
+
+        </footer>
+        <a href="#top" class="back_to_top"><img src="assets/images/back_to_top.png" alt="back to top"></a>
+
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins/countdown.js"></script>
+        <script src="assets/js/plugins/wow.js"></script>
+        <script src="assets/js/plugins/slick.js"></script>
+        <script src="assets/js/plugins/magnific-popup.js"></script>
+        <script src="assets/js/plugins/validate.js"></script>
+        <script src="assets/js/plugins/appear.js"></script>
+        <script src="assets/js/plugins/count-to.js"></script>
+        <!-- <script src="assets/js/plugins/nicescroll.js"></script> -->
+
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyC7kBZNUhySu742ZDKg5_7PG33doGeuiGE"></script>
+        <script src="assets/js/plugins/infobox.js"></script>
+        <script src="assets/js/plugins/google-map.js"></script>
+        <script src="assets/js/plugins/directions.js"></script>
+
+        <script src="assets/js/includes/subscribe.js"></script>
+        <script src="assets/js/includes/contact_form.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/firebase.js"></script>
+
+</body>
+
+</html>

@@ -5,7 +5,14 @@ const addImage = (resim, isim) => {
 	item.className = "col-xs-12 col-sm-6 col-md-4 col-lg-3"
 
 	let img = document.createElement("img")
-	img.src = resim
+
+	var temp = resim.substring(3);
+	temp = "//img2"+temp;
+	temp =temp.substring(0,temp.indexOf("f"))+"300x200/"+temp.substring(temp.indexOf("f")); 
+	console.log(temp);
+
+
+	img.src = temp
 	img.alt = isim
 	img.className = "img-responsive wow fadeIn"
 	img.setAttribute("data-wow-delay", "0.4s")
