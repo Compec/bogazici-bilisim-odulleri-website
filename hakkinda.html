@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="author" content="Boğaziçi Üniversitesi Bilişim Kulübü - Compec">
+    <meta name="description"
+        content="Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC'in bu sene altıncısını düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarıyla bilişim sektöründe faaliyet gösteren kişi ve kuruluşların enlerinin belirleneceği bir oylamadır.">
+    <meta name="keywords" content="boğaziçi, bilişim, ödül, üniversite, compec, teknoloji, sıralama">
+    <meta name="google-site-verification" content="pqd3RxyKp-Zb_g_4hTqdZJL-vUh3Mz4Pmbgc3hOGIy8" />
+
+    <link rel="shortcut icon" href="assets/images/bbo_logo_big.png">
+
+    <title>Boğaziçi Bilişim Ödülleri</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins/slick.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/streamline-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="assets/css/event.css" rel="stylesheet">
+
+
+    <link href="assets/css/themes/blue.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="assets/js/modernizr.min.js"></script>
+
+    <script src="assets/js/plugins/pace.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-109406148-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "location": {
+                "@type": "Place",
+                "name": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Bebek Mahallesi",
+                    "addressLocality": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
+                    "postalCode": "34342",
+                    "addressRegion": "Istanbul",
+                    "addressCountry": "Turkey"
+                }
+            },
+            "name": "Boğaziçi Bilişim Ödülleri Töreni",
+            "startDate": "2018-12-20T19:00",
+            "description": "Boğaziçi Bilişim Ödülleri, En’lerin söz sahibi olduğu, 2014’ten bu yana her yıl bilişim ve teknoloji alanında öncü isimlerin ödüllendirildiği görkemli bir ödül törenidir.",
+            "endDate": "2018-12-20T23:00",
+            "image": "https://bogazicibilisimodulleri.com/assets/images/event-image.jpg"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "logo": "https://bogazicibilisimodulleri.com/assets/images/bbo_sadece_logo.png",
+            "url": "https://bogazicibilisimodulleri.com",
+            "sameAs": [
+                "https://www.facebook.com/BounBilisimOdulleri",
+                "http://instagram.com/bounbilisimodulleri",
+                "https://twitter.com/BilisimOdulleri"
+            ]
+        }
+    </script>
+    <style>
+        .logo-container {
+            width: 80px;
+            margin: 12px auto;
+            padding-bottom: 12px;
+        }
+
+        .logo-container img {
+            width: 100%;
+        }
+
+        .company {
+            right: 20px;
+            display: none;
+        }
+
+        .header_bottom-bg {
+            width: 96%;
+            margin: 10px auto;
+        }
+
+        .header_bottom-bg a {
+            font-size: 18px !important;
+        }
+
+        .header_bottom-bg .fa {
+            font-size: 1.3em;
+        }
+
+        .footer-logo {
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .footer-logo img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 600px) {
+            .logo-container {
+                width: 100px;
+            }
+
+            .header_bottom-bg a {
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .header_bottom-bg {
+                width: 400px;
+            }
+        }
+
+        @media screen and (min-width: 960px) {
+            .logo-container {
+                position: absolute;
+                bottom: 10px;
+                color: white;
+            }
+
+            .organizator {
+                right: 60px;
+            }
+
+            .logo-container img {
+                width: 140px;
+            }
+
+            .logo-container h3 {
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+            .header_bottom-bg a {
+                width: 400px;
+            }
+
+            .header_bottom-bg {
+                margin-bottom: 20px;
+            }
+
+            .countdown_wrap {
+                margin-top: 40px;
+            }
+
+            .countdown_title {
+                margin: 20px 0;
+            }
+
+            .footer-logo {
+                width: 30%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
+
+
+
+
+
+    <div class="preloader"></div>
+
+    <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-visible">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.html"><img src="assets/images/bbo_sadece_logo.png"
+                        alt="Boğaziçi Bilişim Ödülleri" height="36px"> </a>
+                <!-- <a class="navbar-brand navbar-sponsor" href="https://www.garanti.com.tr/tr" target="_blank"><img
+                        src="assets/images/garanti-logo.png" alt="Garanti Bankası" height="36px"> </a> -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./index.html">BBÖ</a></li>
+                    <li class="active"><a href="./hakkinda.html">HAKKINDA</a></li>
+                    <li><a href="./gallery.html">GALERİ</a></li>
+                    <li><a href="./gallery.html#speakers">KAZANANLAR</a></li>
+                    <li><a href="./gallery.html#social">SOSYAL MEDYADA BBÖ
+                    <li><a href="./gallery.html#venue" class="hidden-sm">HARİTA</a></li>
+                    <li><a href="#contact">İLETİŞİM</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="padding: 4% 0;margin-top: 8%;">Hakkında</h2>
+            </div>
+            <div class="nav-center bottom-space-lg">
+
+            </div>
+        </div>
+
+    </section>
+        <section class="" >
+        <div class="container"style="margin:  4% auto;">
+
+            <p id="bbo-nedir-metin" class="lead text-center">
+
+                Boğaziçi Bilişim Ödülleri , bilişimle ilgili 18 farklı kategoride sektörden firmaların , teknolojik girişimlerin , oyun ve uygulama geliştiricilerin , içerik üreticilerinin ve bilişim alanında emek veren nice kişi ve kuruluşun ağırlandığı ödül törenidir. Misyonumuz ise Türkiye’de bilişim alanında değer üreten kişin ve firmaların çalışmalarının halk ve jüri görüşleriyle takdir edilmesidir.
+
+            </p>
+            <p id="bbo-nedir-metin" class="lead text-center">
+
+                Boğaziçi Bilişim Ödülleri , 50’den fazla Boğaziçi Üniversitesi öğrencisinin tamamen gönüllü olarak çalışmaları sonucu düzenlenir. Ödül Töreni’nde kulübün geliri sadece sponsor firmadan gelir ve bu miktarın tamamı Ödül Töreni hazırlık süreci ve gecesindeki masraflar için harcanır. 
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h4>haberler</h4>
+            </div>
+            <div class="nav-center bottom-space-lg">
+
+
+
+            </div>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="photo-gallery">
+                    <div class="popup-gallery">
+                        <div id="gallery-fire" class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="assets/images/gallery/6 (Small).JPG" title="">
+                                            <img src="assets/images/gallery/6 (Small).JPG" alt="gallery image"
+                                                class="img-responsive wow fadeIn" data-wow-delay="0.4s">
+                                            
+                                            </a> <span>assadasd</span>
+                                               
+                                    </div>
+                                   
+                        </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script> -->
+
+
+
+
+
+
+    <div class="container">
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/BounBilisimOdulleri?fref=ts" class="wow zoomIn"> <i
+                        class="fa fa-facebook"></i> </a>
+                <a href="https://twitter.com/BilisimOdulleri" class="wow zoomIn" data-wow-delay="0.2s"> <i
+                        class="fa fa-twitter"></i> </a>
+                <a href="https://www.instagram.com/bounbilisimodulleri" class="wow zoomIn" data-wow-delay="0.2s"> <i
+                        class="fa fa-instagram"></i> </a>
+            </div>
+            <a href="http://compec.org" target="_blank">
+                <div class="footer-logo">
+                    <img src="assets/images/compec_mavi.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü">
+                </div>
+            </a>
+            <p> <small class="text-muted">Copyright © 2019. Tüm hakkı saklıdır. Etkinliğin tüm hakları Compec'e
+                    (Boğaziçi Üniversitesi Bilişim Kulübü) aittir ve etkinliği haber vermeksizin değiştirme yetkisini
+                    elinde tutar.</small> <br>
+                <small class="text-muted"> <a href="https://dev.compec.org">Compec Dev ®</a> </small>
+
+            </p>
+
+
+        </footer>
+        <a href="#top" class="back_to_top"><img src="assets/images/back_to_top.png" alt="back to top"></a>
+
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins/countdown.js"></script>
+        <script src="assets/js/plugins/wow.js"></script>
+        <script src="assets/js/plugins/slick.js"></script>
+        <script src="assets/js/plugins/magnific-popup.js"></script>
+        <script src="assets/js/plugins/validate.js"></script>
+        <script src="assets/js/plugins/appear.js"></script>
+        <script src="assets/js/plugins/count-to.js"></script>
+        <!-- <script src="assets/js/plugins/nicescroll.js"></script> -->
+
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyC7kBZNUhySu742ZDKg5_7PG33doGeuiGE"></script>
+        <script src="assets/js/plugins/infobox.js"></script>
+        <script src="assets/js/plugins/google-map.js"></script>
+        <script src="assets/js/plugins/directions.js"></script>
+
+        <script src="assets/js/includes/subscribe.js"></script>
+        <script src="assets/js/includes/contact_form.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/firebase.js"></script>
+
+</body>
+
+</html>
