@@ -1,988 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Fri Dec 02 2022 00:39:56 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6381473d3a69e9817dbfa4c4" data-wf-site="6381473d3a69e9b2e2bfa4c3">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VRP16G4LPP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <meta name="author" content="Boğaziçi Üniversitesi Bilişim Kulübü - Compec">
-    <meta name="description"
-        content="Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC'in bu sene sekizincisini düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarıyla bilişim sektöründe faaliyet gösteren kişi ve kuruluşların enlerinin belirleneceği bir oylamadır.">
-    <meta name="keywords" content="boğaziçi, bilişim, ödül, üniversite, compec, teknoloji, sıralama">
-    <meta name="google-site-verification" content="pqd3RxyKp-Zb_g_4hTqdZJL-vUh3Mz4Pmbgc3hOGIy8" />
+  gtag('config', 'G-VRP16G4LPP');
+</script>
 
-    <link rel="shortcut icon" href="assets/images/bbo_logo_big.png">
-
-    <title>Boğaziçi Bilişim Ödülleri</title>
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet'
-        type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/plugins/animate.css" rel="stylesheet">
-    <link href="assets/css/plugins/slick.css" rel="stylesheet">
-    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/plugins/streamline-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="assets/css/event.css" rel="stylesheet">
-
-
-    <link href="assets/css/themes/blue.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-    <script src="assets/js/ie/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="assets/js/modernizr.min.js"></script>
-
-    <script src="assets/js/plugins/pace.js"></script>
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-109406148-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Event",
-            "location": {
-                "@type": "Place",
-                "name": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Bebek Mahallesi",
-                    "addressLocality": "Boğaziçi Üniversitesi Güney Kampüs, Albert Long Hall",
-                    "postalCode": "34342",
-                    "addressRegion": "Istanbul",
-                    "addressCountry": "Turkey"
-                }
-            },
-            "name": "Boğaziçi Bilişim Ödülleri Töreni",
-            "startDate": "2018-12-20T19:00",
-            "description": "Boğaziçi Bilişim Ödülleri, En’lerin söz sahibi olduğu, 2014’ten bu yana her yıl bilişim ve teknoloji alanında öncü isimlerin ödüllendirildiği görkemli bir ödül törenidir.",
-            "endDate": "2018-12-20T23:00",
-            "image": "https://bogazicibilisimodulleri.com/assets/images/event-image.jpg"
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "logo": "https://bogazicibilisimodulleri.com/assets/images/bbo_sadece_logo.png",
-            "url": "https://bogazicibilisimodulleri.com",
-            "sameAs": [
-                "https://www.facebook.com/BounBilisimOdulleri",
-                "http://instagram.com/bounbilisimodulleri",
-                "https://twitter.com/BilisimOdulleri"
-            ]
-        }
-    </script>
-    <style>
-        .poltio {
-            padding: 5% 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .partners-container {
-            color: black;
-            background: white;
-            text-align: center;
-            padding: 40px;
-            box-sizing: border-box;
-
-            margin: 50px 20px;
-        }
-
-        .partners-container .sponsor img {
-            width: 100%;
-        }
-
-        .partners-container .sponsor.main {
-            width: 50%;
-            margin: 20px auto;
-        }
-
-        .partners-container .sponsor.gold {
-            width: 75%;
-            margin: 0% 5% 15%;
-        }
-
-        .partners-container .cooperators {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .partners-container .cooperators .sponsor {
-            width: 80%;
-        }
-
-        .partners-container .cooperators2 {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .partners-container .cooperators2 .sponsor {
-            width: 38%;
-        }
-
-        .logo-container {
-            width: 80px;
-            margin: 12px auto;
-            padding-bottom: 12px;
-        }
-
-        .logo-container img {
-            width: 100%;
-        }
-
-        .company {
-            right: 20px;
-            display: none;
-        }
-
-        .header_bottom-bg {
-            width: 96%;
-            margin: 10px auto;
-        }
-
-        .header_bottom-bg a {
-            font-size: 18px !important;
-        }
-
-        .header_bottom-bg .fa {
-            font-size: 1.3em;
-        }
-
-        .footer-logo {
-            width: 60%;
-            margin: 20px auto;
-        }
-
-        .footer-logo img {
-            width: 100%;
-        }
-
-        @media screen and (min-width: 600px) {
-            .logo-container {
-                width: 100px;
-            }
-
-            .header_bottom-bg a {
-                text-align: center;
-                padding: 20px 0;
-            }
-
-            .header_bottom-bg {
-                width: 400px;
-            }
-
-            .marg {
-                margin: 3% 5%;
-            }
-        }
-
-        @media screen and (min-width: 960px) {
-            .marg {
-                margin: 3% 25%;
-            }
-
-            .logo-container {
-                position: absolute;
-                bottom: 10px;
-                color: white;
-            }
-
-            .organizator {
-                right: 60px;
-            }
-
-            .logo-container img {
-                width: 140px;
-            }
-
-            .logo-container h3 {
-                font-size: 1.2em;
-                text-align: center;
-            }
-
-            .header_bottom-bg a {
-                width: 400px;
-            }
-
-            .header_bottom-bg {
-                margin-bottom: 20px;
-            }
-
-            .countdown_wrap {
-                margin-top: 40px;
-            }
-
-            .countdown_title {
-                margin: 20px 0;
-            }
-
-            .footer-logo {
-                width: 30%;
-                margin: 20px auto;
-            }
-
-            .highlight {
-                background: unset;
-            }
-        }
-
-
-
-
-        #clockdiv {
-            font-family: sans-serif;
-            color: #fff;
-            display: inline-block;
-            font-weight: 100;
-            text-align: center;
-            font-size: 30px;
-        }
-
-        #clockdiv>div {
-            padding: 10px;
-            border-radius: 3px;
-            display: inline-block;
-        }
-
-
-
-        .smalltext {
-            padding-top: 5px;
-            font-size: 16px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <title>bbo22&#x27;</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/bbo22.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Varela Round:400","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
-
-<body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
-
-
-
-
-
-    <div class="preloader"></div>
-
-    <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-visible">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/index.html"><img src="assets/images/bbo_sadece_logo.png"
-                        alt="Boğaziçi Bilişim Ödülleri" height="36px"> </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top">BBÖ</a></li>
-                    <li><a href="./hakkinda.html">HAKKINDA</a></li>
-                    <li><a href="/gallery.html">GALERİ</a></li>
-                    <!-- <li><a href="/gallery.html#speakers">KAZANANLAR</a></li> -->
-                    <li><a href="/gallery.html#social">SOSYAL MEDYADA BBÖ
-                            <!-- <li><a href="/gallery.html#venue" class="hidden-sm">HARİTA</a></li> -->
-                    <li><a href="#contact">İLETİŞİM</a></li>
-                </ul>
-            </div>
-
+<body class="body">
+  <nav id="nav" class="section wf-section">
+    <div class="div-block-3"><img src="images/arka-yüz-copy-8.png" loading="lazy" width="Auto" height="75" sizes="75px" srcset="images/arka-yüz-copy-8-p-500.png 500w, images/arka-yüz-copy-8-p-1080.png 1080w, images/arka-yüz-copy-8.png 1081w" alt="" class="image-3">
+      <ul role="list" class="list w-list-unstyled">
+        <li class="navlink">
+          <a href="index.html" data-w-id="4c7ca83e-8891-1a5c-d769-b6451f9ca6f2" aria-current="page" class="nav-link-text w--current">Ana Sayfa</a>
+        </li>
+        <li class="navlink">
+          <a href="adaylar.html" class="nav-link-text">Adaylar</a>
+        </li>
+        <li class="nav-link-highlight navlink">
+          <a href="#contact" class="nav-link-text">İletişim</a>
+        </li>
+      </ul>
+      <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+        <div class="dropdown-toggle w-dropdown-toggle">
+          <div class="icon w-icon-dropdown-toggle"></div>
+          <div class="text-block-23">Dropdown</div>
         </div>
-    </nav>
-
-    <header id="top" class="header slider-bg" style="position: relative; ">
-        <div class="container">
-            <div class="header-wrap" style="margin: 2% auto;">
-                <div class="logo">
-                    <a href="#"><img src="assets/images/bbo_sadece_logo.png" height="30%" width="30%"
-                            alt="event-logo"></a>
-
-                </div>
-            </div>
-            <h1 style="margin: 3% auto 0% auto;visibility: visible;animation-delay: 0.1s;animation-name: fadeInDown;"
-                class="headline wow fadeInDown" data-wow-delay="0.1s">Boğaziçi Bilişim Ödülleri</h1>
-
-
-            <div class="header_bottom-bg">
-                <a id="vote"
-                    class="btn btn-default btn-xl visible-xs-block visible-sm-block visible-md-inline-block visible-lg-inline-block"
-                    href="#votenow"
-                    style="margin: 10% 0 15% 0;background-color:rgba(247, 233, 32, 0.842);border-radius: 20px;color:black;white-space: normal !important;text-transform: none;">
-                    <i class="fa fa-ticket" aria-hidden="true"></i>
-                    Şimdi Oyla !
-                </a>
-            </div>
-            
-            <!-- <div>
-            
-            <h3>Bilişimin "En"leri Boğaziçi Üniversitesi'nde</h3>
-            <h3> ödüllerine kavuştu.</h3>
-			    </div> -->
-            <!-- <div>
-     <h3>Oylamanın Bitmesine Son:</h3>       
-<div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Gün</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Saat</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Dakika</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Saniye</div>
-  </div>
-</div>
-        </div> -->
-
-
-        </div>
-        <a href="http://compec.org" target="_blank">
-            <div class="logo-container organizator">
-                <div class="image-container">
-                    <img src="assets/images/compec_beyaz.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü">
-                </div>
-            </div>
-        </a>
-
-
-    </header>
-
-
-    <section class="">
-        <div class="container" style="margin:  4% auto;">
-            <h1 id="bbo-nedir-nenedir" class="countdown_title text-center">
-                Boğaziçi Bilişim Ödülleri Nedir?
-            </h1>
-            <p id="bbo-nedir-metin" class="lead text-center">
-
-                Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC'in bu sene dokuzuncusunu
-                düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarının alındığı süreç sonunda, bilişim sektöründe
-                faaliyet gösteren kişi ve kuruluşların enlerinin ödüllerine kavuştuğu prestijli ve gösterişli ödül
-                gecesidir.
-            </p>
-        </div>
-        <div class="header_bottom-bg">
-            <a id="vote"
-                class="btn btn-default btn-xl visible-xs-block visible-sm-block visible-md-inline-block visible-lg-inline-block"
-                href="./hakkinda.html"
-                style="background-color:#00aeff;border-radius: 20px;color:black;white-space: normal !important;text-transform: none;">
-                <div style="color: white;padding-left: 5%;padding-right: 5%;font-size: 13pt;">
-                    Boğaziçi Bilişim Ödülleri Hakkında
-                </div>
-            </a>
-        </div>
-    </section>
-    <!--<div style="margin-top: 8%;">
-
-<h2 class="text-center">Boğaziçi Bilişim Ödülleri 2019 Kazananları</h2>
-<div style="margin-top: 5%;" class="row">
-                <div id="winners-2018" class="speaker-slider slick-initialized slick-slider ">
-                    <div aria-live="polite" class="slick-list draggable" tabindex="0">
-                        <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                        </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/38177cd2bd/monsterlogo.jpg"
-                            alt="Monster" class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi PC Markası</p><span>Monster</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/8a65c0f1da/trendyollogo.jpg"
-                            alt="Trendyol" class="img-responsive center-block" style="height: 150px;">
-                        <p>Sosyal Medyayı En Etkin Kullanan Marka</p><span>Trendyol</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/f916fc7748/fblogo.jpg"
-                            alt="1907 Fenerbahçe Espor" class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi E-Spor Takımı</p><span>1907 Fenerbahçe Espor</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/ea81a71dc8/kelimeliklogoo.jpg" alt="Kelimelik"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Yerli Dijital Oyun</p><span>Kelimelik</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1400x1400/e487cbfc67/ceyhun-yilmaz-show-1.jpg"
-                            alt=" Ceyhun Yılmaz Show" class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Yerli Podcast</p><span> Ceyhun Yılmaz Show</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/2304x2304/ff0d11b513/samsung_logo_wordmark_rgb.png" alt="Samsung"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Akıllı Telefon Markası</p><span>Samsung</span>
-                    </div></div>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/980x928/7c85794952/google-drive-logo.png" alt="Google Drive"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Bulut Depolama Platformu</p><span>Google Drive</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/b20c4bad43/getirlogo.jpg" alt="Getir"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Market Servisi Uygulaması</p><span>Getir</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/8e5a3d969e/fabrikatorlogo.jpg" alt="Fabrikatör"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Teknolojik Girişim</p><span>Fabrikatör</span>
-                    </div></div>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/895x827/d859933199/netflix.png" alt="Netflix"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi Dizi/Film Platformu</p><span>Netflix</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/18aa304458/webteknologo.jpg" alt="Webtekno"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi İçerik Sitesi</p><span>Webtekno</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/4503x4503/9ec28ab0c9/garantibbva_logo-disi-e-2.jpg" alt="Garanti BBVA"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Mobil Bankacılık Uygulaması</p><span>Garanti BBVA</span>
-                    </div></div>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/150x150/edc9b978b5/66406041_648090649014459_905559692191727616_n.jpg" alt="Elraenn"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi Yayıncısı</p><span>Elraenn</span>
-                    </div>
-                   <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://a.storyblok.com/f/65511/1000x950/389aab25c5/vedat-millor.jpg" alt="Vedat Milor"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Sosyal Medyayı En Etkin Kullanan Ünlü</p><span>Vedat Milor</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/c4b735ffff/ensonhaberlogo.jpg" alt="Ensonhaber"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>En İyi Mobil Haber Uygulaması</p><span>Ensonhaber</span>
-                    </div></div>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/d2dd069ff0/dolaplogo.jpg" alt="Dolap"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi Yerli Mobil Uygulaması</p><span>Dolap</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/8a65c0f1da/trendyollogo.jpg"
-                            alt="Trendyol" class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi E-ticaret Sitesi</p><span>Trendyol</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="https://a.storyblok.com/f/65511/1920x1920/d23e495cec/post42logo.jpg" alt="Post42"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Yılın En İyi Youtube İçerik Üreticisi</p><span>Post42</span>
-                    </div></div>
-			 <div class="row">
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="https://a.storyblok.com/f/65511/225x225/c00cf1dc4d/habitat.png" alt="Habitat Derneği"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Compec Özel Ödülü</p><span>Habitat Derneği</span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src=""
-                            alt="" class="img-responsive center-block" style="height: 150px;">
-                        <p></p><span></span>
-                    </div>
-                    <div class="col-sm-12 col-md-4 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img
-                            src="" alt=""
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p></p><span></span>
-                    </div></div> -->
-
-
-
-    <div style="margin-top: 8%;">
-        <!-- <h2 class="text-center">Boğaziçi Bilişim Ödülleri Sunucusu</h2>
-<div style="margin-top: 8%;" class="row">
-    <div class="col-sm-12 col-md-12 speaker-info wow fadeIn" data-wow-delay="0.2s"
-        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-            src="/assets/images/047048A5-09DA-4CE8-9AFB-2F5C7D02A8A9 (1).jpeg" alt="Yunus Günçe"
-            class="img-responsive center-block" style="height: 150px;">
-        <p>Yunus Günçe</p>
+        <nav class="w-dropdown-list">
+          <a href="index.html" aria-current="page" class="dropdown-link w-dropdown-link w--current">Ana Sayfa</a>
+          <a href="#" class="w-dropdown-link">Adaylar</a>
+          <a href="#" class="w-dropdown-link">Link 3</a>
+          <a href="#" class="w-dropdown-link">Link 4</a>
+        </nav>
+      </div>
     </div>
-</div>
-</div> -->
-        <!--
-<div style="margin-top: 8%;">
-    <h2 class="text-center">Dinletiler</h2>
-    <div style="margin-top: 8%;" class="row">
-        <div class="col-sm-12 col-md-6 speaker-info wow fadeIn" data-wow-delay="0.2s"
-            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                src="/assets/images/WhatsApp Image 2019-12-13 at 19.38.25.jpeg" alt="yirmi7"
-                class="img-responsive center-block" style="height: 150px; ">
-            <p>yirmi7</p>
-        </div>
-        <div class="col-sm-12 col-md-6 speaker-info wow fadeIn" data-wow-delay="0.2s"
-            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                src="/assets/images/cazz ensemble.jpeg" alt="yirmi7"
-                class="img-responsive center-block" style="height: 150px; ">
-            <p>CAZensemble</p>
-        </div>
+  </nav>
+  <div class="section-3 wf-section">
+    <div class="div-block-4"><img src="images/arka-yüz-copy-10.png" loading="lazy" srcset="images/arka-yüz-copy-10-p-500.png 500w, images/arka-yüz-copy-10-p-800.png 800w, images/arka-yüz-copy-10.png 1081w" sizes="100vw" alt="" class="image-5">
+      <div class="div-block-5">
+        <h1 class="heading-4">Boğaziçi Bilişim Ödülleri</h1><img src="images/arka-yüz-copy-10.png" loading="lazy" height="500" width="500" sizes="(max-width: 767px) 100vw, 500px" srcset="images/arka-yüz-copy-10-p-500.png 500w, images/arka-yüz-copy-10-p-800.png 800w, images/arka-yüz-copy-10.png 1081w" alt="" class="image-6">
+        <p class="paragraph">Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC&#x27;in bu sene <strong>onuncusunu </strong>düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarının alındığı süreç sonunda, bilişim sektöründefaaliyet gösteren kişi ve kuruluşların enlerinin ödüllerine kavuştuğu prestijli ve gösterişli ödülgecesidir.</p>
+      </div>
+      <a href="vote.html" target="_blank" class="link link-hero">Şimdi Oyla!</a>
     </div>
-    
-    </div> -->
-
-        <!-- <div style="margin-top: 8%;">
-            <h2 class="text-center"> Boğaziçi Bilişim Ödülleri Jürileri</h2>
-            <div style="margin-top: 8%;" id="winners-2014" class="speaker-slider slick-initialized slick-slider">
-                <div aria-live="polite" class="slick-list draggable" tabindex="0">
-                    <div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/LMAlzY.jpg" alt="Burak Tatlıcı"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Burak Tatlıcı</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/UU8e1o.jpg" alt="Levent Kopuz"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Levent Kopuz</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="/assets/images/tuna.jpg" alt="Turkcell Superonline" class="img-responsive center-block"
-                            style="height: 150px;">
-                        <p>Tuna Tuğcu</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/Na273N.png" alt="Oğuzhan Aygören"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Oğuzhan Aygören</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn; min-width: 5%;"><img
-                            src="https://i.hizliresim.com/gRj1BF.jpg" alt="Atıl Samancıoğlu"
-                            class="img-responsive center-block" style="height: 150px; ">
-                        <p>Atıl Samancıoğlu</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/UrZoFO.jpg" alt="Tahir Yıldız"
-                            class="img-responsive center-block" style="height: 150px; min-width: 5%;">
-                        <p>Tahir Yıldız</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://pbs.twimg.com/profile_images/720746436250509312/FeBiRHQx_400x400.jpg"
-                            alt="Oğuzhan Canım" class="img-responsive center-block" style="height: 150px;">
-                        <p>Oğuzhan Canım</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/nFAj5t.jpg" alt="Reşat Şen"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Reşat Şen</p>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://yenibirlider.org/wp-content/uploads/2018/02/Sertac-Doganay-e1520274583629.jpg"
-                            alt="Sertaç Doğanay" class="img-responsive center-block" style="height: 150px;">
-                        <p>Sertaç Doğanay</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/GkK9CO.jpg" alt="Bilgin Metin"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Bilgin Metin</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/Squwtk.jpg" alt="Elis Yılmaz Aykan"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Elis Yılmaz Aykan</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/banEQg.png" alt="Zehra Öney"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Zehra Öney</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/j9WFgU.jpg" alt="Erdinç İyikul"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Erdinç İyikul</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/FbsGYr.jpg" alt="Gülce Günindi"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Gülce Günindi</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/XOug1S.jpg" alt="Güney Can Gökoğlu"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Güney Can Gökoğlu</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/Yvku4b.jpg" alt="Hüseyin Kılıç"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Hüseyin Kılıç</p>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/cN4QK7.jpg" alt="Kaan Kayımoğlu"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Kaan Kayımoğlu</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/KNwtf4.jpg" alt="Merve Cerit"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Merve Cerit</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/8EVhil.jpg" alt="Mesut Çevik"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Mesut Çevik</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/jsv5lR.jpg" alt="Minhac Çelik"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Minhac Çelik</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/1f2qvI.jpg" alt="Özgür Alagül"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Özgür Alagül</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/HyjzUL.jpg" alt="Şerafettin Özer"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Şerafettin Özer</p>
-                    </div>
-                    <div class="col-sm-12 col-md-3 speaker-info wow fadeIn" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><img
-                            src="https://i.hizliresim.com/Li5mre.jpg" alt="Fuat Beşer"
-                            class="img-responsive center-block" style="height: 150px;">
-                        <p>Fuat Beşer</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="partners-container marg ">
-            <div class="row cooperators2" style="    display: flex; align-items: center; justify-content: space-around;">
-                <div class="sponsor gold">
-                    <a target="_blank" href="https://www.lcwaikiki.com">
-                        <img src="https://www.lcwaikiki.com/Resource/Images/lcwaikiki-logo@2x.png?v1" alt="">
-
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Ana Sponsor</p>
-                </div>
-            </div>
-            <div class="row cooperators2" style="    display: flex;
-            align-items: center;
-            justify-content: space-around;">
-
-
-                <div class="sponsor gold">
-                    <a target="_blank" href="https://istanbulfilmakademi.com/">
-                        <img style="width: 80%;" src="https://i.hizliresim.com/AQzURF.png" alt="">
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Stüdyo Destekçisi</p>
-
-
-                </div>
-
-            </div>
-            <div class="row cooperators2" style="    display: flex;
-            align-items: center;
-            justify-content: space-around;">
-
-
-                <div class="sponsor gold">
-                    <a target="_blank" href="https://www.hangaranimation.com/">
-                        <img style="width: 80%;" src="https://i.hizliresim.com/Uusenh.png" alt="">
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Kurgu-Animasyon Destekçisi</p>
-
-
-                </div>
-
-            </div>
-
-            <div class="row cooperators2" style="    display: flex;
-                align-items: center;
-                justify-content: space-around;">
-
-
-                <div class="sponsor gold">
-                    <a target="_blank" href="https://www.proboyut.com/">
-                        <img style="width: 100%;" src="https://i.hizliresim.com/uXApmf.png" alt="">
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Ödül Destekçisi</p>
-
-
-                </div>
-            </div>
-            <div class="row cooperators2" style="    display: flex;
-                align-items: center;
-                justify-content: space-around;">
-
-
-                <div class="sponsor gold">
-                    <a target="_blank" href="https://www.ups.com.tr/">
-                        <img style="width: 100%;" src="https://i.hizliresim.com/tYLAjI.png" alt="">
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Lojistik Destekçisi</p>
-
-
-                </div>
-            </div>
-
-            <div class="row cooperators2" style="    display: flex;
-                align-items: center;
-                justify-content: space-around;">
-
-
-                <div class="sponsor gold">
-                    <a style="" target="_blank" href="https://poltio.com">
-                        <img style="width: 100%;  margin : 5px;padding: 5%;" src="/assets/images/Poltio_Logo.png"
-                            alt="">
-                    </a>
-                    <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-
-                    <p style="text-align: center;">Altyapı Destekçisi</p>
-
-
-                </div>
-            </div> -->
-
-
-            <!-- <div class="row cooperators2" style="    display: flex;
-                align-items: center;
-                justify-content: space-around;"> -->
-                <!--
-                    <div class="sponsor gold">
-                            <a style=""   target="_blank" href="https://">
-                                <img style="background-color:black;  margin : 5px;padding: 5%;" src="/assets/images/.png" alt="">
-                            </a>
-                            <hr style="border: 1px solid rgba(181, 181, 76, 0.25); border-radius:2px;">
-                
-                            <p style="text-align: center;">Canlı Yayın Destekçisi</p>
-                        
-        
-                    </div>
-                    
-                    </div>
-   
-   
-    </div>            -->
-
-                <!--
-    <iframe id="poltio-embed-set-665" class="poltio-embed" src="https://www.poltio.com/e/set/665/slug?utm_source=embed2&utm_medium=&utm_campaign=set-665&share=off&notify=off&align=center" width="100%" height="800" frameBorder="0" allowFullScreen="allowfullscreen" scrolling="yes" title="Embed"></iframe>
--->
-                <!-- The core Firebase JS SDK is always required and must be listed first -->
-                <!--  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>-->
-
-                <div id="votenow" style="padding-top: 8%;" >
-                    <iframe id="poltio-embed-set-1490" class="poltio-embed" src="https://www.poltio.com/e/set/1490/slug?utm_source=embed2&utm_medium=&utm_campaign=set-1490&share=off&notify=off&align=center" width="100%" height="800" frameBorder="0" allowFullScreen="allowfullscreen" scrolling="yes" title="Embed"></iframe><script src="https://platform.poltio.com/widget.js" defer></script>
-                </div>
-                <div class="container" id="contact">
-                    <div class="section-title">
-                        <h2>İLETİŞİM</h2>
-                        <br>
-                        <p>Etkinlik ile ilgili soru ve görüşleriniz için bizimle iletişime geçebilirsiniz.</p>
-                    </div>
-                    <h4 class="text-center">
-                        <a href="/cdn-cgi/l/email-protection#22404d574c404b4e4b514b4f4d46574e4e47504b62454f434b4e0c414d4f"
-                            class="icon-block">
-                            <i class="fa fa-envelope"> </i><span style="padding-left: 5px;"><span class="__cf_email__"
-                                    data-cfemail="a2c0cdd7ccc0cbcecbd1cbcfcdc6d7cecec7d0cbe2c5cfc3cbce8cc1cdcf">[email&#160;protected]</span></span>
-                        </a>
-                    </h4>
-                    <br>
-
-
-                    <footer>
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/BounBilisimOdulleri?fref=ts" class="wow zoomIn"> <i
-                                    class="fa fa-facebook"></i> </a>
-                            <a href="https://twitter.com/BilisimOdulleri" class="wow zoomIn" data-wow-delay="0.2s"> <i
-                                    class="fa fa-twitter"></i> </a>
-                            <a href="https://www.instagram.com/bounbilisimodulleri" class="wow zoomIn"
-                                data-wow-delay="0.2s"> <i class="fa fa-instagram"></i> </a>
-                        </div>
-                        <a href="http://compec.org" target="_blank">
-                            <div class="footer-logo">
-                                <img src="assets/images/compec_mavi.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü">
-                            </div>
-                        </a>
-                        <p> <small class="text-muted">Copyright © 2021 Tüm hakkı saklıdır. Etkinliğin tüm hakları
-                                Compec'e
-                                (Boğaziçi Üniversitesi Bilişim Kulübü) aittir ve etkinliği haber vermeksizin değiştirme
-                                yetkisini
-                                elinde tutar.</small> <br>
-                        </p>
-
-
-                    </footer>
-                    <a href="#top" class="back_to_top"><img src="assets/images/back_to_top.png" alt="back to top"></a>
-
-
-                    <script data-cfasync="false"
-                        src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script src="assets/js/jquery.min.js"></script>
-
-                    <script src="assets/js/bootstrap.min.js"></script>
-
-                    <script src="assets/js/plugins/countdown.js"></script>
-                    <script src="assets/js/plugins/wow.js"></script>
-                    <script src="assets/js/plugins/slick.js"></script>
-                    <script src="assets/js/plugins/magnific-popup.js"></script>
-                    <script src="assets/js/plugins/validate.js"></script>
-                    <script src="assets/js/plugins/appear.js"></script>
-                    <script src="assets/js/plugins/count-to.js"></script>
-                    <!--  <script src="assets/js/plugins/nicescroll.js"></script>-->
-
-                    <script
-                        src="https://maps.google.com/maps/api/js?key=AIzaSyC7kBZNUhySu742ZDKg5_7PG33doGeuiGE"></script>
-                    <script src="assets/js/plugins/infobox.js"></script>
-                    <script src="assets/js/plugins/google-map.js"></script>
-                    <script src="assets/js/plugins/directions.js"></script>
-
-                    <script src="assets/js/includes/subscribe.js"></script>
-                    <script src="assets/js/includes/contact_form.js"></script>
-                    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
-                    <script src="assets/js/main.js"></script>
-                    <script src="assets/js/firebase.js"></script>
-                    <script>
-                        function getTimeRemaining(endtime) {
-                            var t = Date.parse(endtime) - Date.parse(new Date());
-                            var seconds = Math.floor((t / 1000) % 60);
-                            var minutes = Math.floor((t / 1000 / 60) % 60);
-                            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                            var days = Math.floor(t / (1000 * 60 * 60 * 24));
-                            return {
-                                'total': t,
-                                'days': days,
-                                'hours': hours,
-                                'minutes': minutes,
-                                'seconds': seconds
-                            };
-                        }
-
-                        function initializeClock(id, endtime) {
-                            var clock = document.getElementById(id);
-                            var daysSpan = clock.querySelector('.days');
-                            var hoursSpan = clock.querySelector('.hours');
-                            var minutesSpan = clock.querySelector('.minutes');
-                            var secondsSpan = clock.querySelector('.seconds');
-
-                            function updateClock() {
-                                var t = getTimeRemaining(endtime);
-
-                                daysSpan.innerHTML = t.days;
-                                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-                                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-                                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-                                if (t.total <= 0) {
-                                    clearInterval(timeinterval);
-                                }
-                            }
-
-                            updateClock();
-                            var timeinterval = setInterval(updateClock, 1000);
-                        }
-
-                        var deadline = new Date(Date.parse(new Date("12/22/2020")));
-                        initializeClock('clockdiv', deadline);
-                    </script>
+  </div>
+  <section id="sponsors" class="section-2 wf-section">
+    <div data-w-id="3df41c03-f45c-3922-4f1c-0e8d3d1e1e30" class="div-block-2">
+      <div class="div-block-6">
+        <p class="paragraph-2">10</p>
+        <p class="paragraph-3">Boğaziçi Bilişim Ödülleri, bilişimle ilgili 20 farklı kategoride sektörden firmaların, teknolojik girişimlerin, oyun ve uygulama geliştiricilerin, içerik üreticilerinin ve bilişim alanında emek veren nice kişi ve kuruluşun ağırlandığı bir ödül törenidir.<br>‍</p>
+        <div class="div-block-16">
+          <a href="#" class="sptext">Ana Sponsor</a><img src="images/PeP-logo.png" loading="lazy" srcset="images/PeP-logo-p-500.png 500w, images/PeP-logo-p-800.png 800w, images/PeP-logo-p-1080.png 1080w, images/PeP-logo.png 1333w" sizes="(max-width: 479px) 50vw, (max-width: 767px) 33vw, (max-width: 991px) 34vw, 35vw" alt="" class="image-17">
+        </div>
+        <div class="w-layout-grid grid-3">
+          <div id="w-node-_8615eab5-5ec8-31fb-efc4-5eaeb1b585b4-3d1e1e2f" class="div-block-13">
+            <a href="#" class="sptext">Co Sponsor</a><img src="images/Arabam.com_logo.png" loading="lazy" srcset="images/Arabam.com_logo-p-500.png 500w, images/Arabam.com_logo.png 950w" sizes="(max-width: 479px) 83vw, 350px" alt="" class="image-16">
+          </div>
+          <div id="w-node-ab393d86-33f1-c5c5-2ebb-4a2a8a5c007f-3d1e1e2f" class="div-block-14">
+            <a href="#" class="sptext">Altyapı Sponsoru</a><img src="images/jot-f.png" loading="lazy" srcset="images/jot-f-p-800.png 800w, images/jot-f.png 800w" sizes="(max-width: 479px) 84vw, 400px" alt="" class="image-15">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-poster-url="videos/IMG_4845-poster-00001.jpg" data-video-urls="videos/IMG_4845-transcode.mp4,videos/IMG_4845-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="3df41c03-f45c-3922-4f1c-0e8d3d1e1e3c" class="background-video w-background-video w-background-video-atom"><video id="3df41c03-f45c-3922-4f1c-0e8d3d1e1e3c-video" autoplay="" loop="" style="background-image:url(&quot;videos/IMG_4845-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="videos/IMG_4845-transcode.mp4" data-wf-ignore="true">
+        <source src="videos/IMG_4845-transcode.webm" data-wf-ignore="true">
+      </video></div>
+    <div class="div-block-17"><img src="images/compec_beyaz.png" loading="lazy" width="100" height="75" alt="" class="image-4"></div>
+  </section>
+  <section id="categories" class="div-block-10"><img src="images/odul6.png" loading="lazy" srcset="images/odul6-p-500.png 500w, images/odul6-p-800.png 800w, images/odul6-p-1080.png 1080w, images/odul6.png 1080w" sizes="(max-width: 991px) 100vw, 800px" alt="" class="image-9">
+    <div class="section-4 wf-section">
+      <h1 class="heading-5">Kategorilerimiz</h1>
+      <div class="text-block-4 category">EN İYİ YAPAY ZEKA GİRİŞİMİ </div>
+      <div class="text-block-5 category">EN İYİ E TİCARET SİTESİ</div>
+      <div class="text-block-6 category">EN İYİ ULAŞIM UYGULAMASI</div>
+      <div class="text-block-7 category">EN İYİ MARKET SERVİS UYGULAMASI</div>
+      <div class="text-block-8 category">EN İYİ SÜRDÜRÜLEBİLİR TEKNOLOJİ GİRİŞİMİ</div>
+      <div class="text-block-9 category">EN İYİ SİBER GÜVENLİK ŞİRKETİ</div>
+      <div class="text-block-10 category">EN İYİ ONLINE YAYIN İÇERİK ÜRETİCİSİ</div>
+      <div class="text-block-11 category">EN İYİ YAZILIM/BİLGİSAYAR BİLİMLERİ TOPLULUĞU</div>
+      <div class="text-block-12 category">SOSYAL MEDYAYI EN ETKİN KULLANAN ÜNLÜ</div>
+      <div class="text-block-13 category">EN İYİ OYUN GELİŞTİRME ŞİRKETİ</div>
+      <div class="text-block-14 category">EN İYİ YERLİ DİJİTAL YAYIN PLATFORMU</div>
+      <div class="text-block-15 category">EN İYİ YOUTUBE İÇERİK ÜRETİCİSİ</div>
+      <div class="text-block-16 category">EN İYİ DİJİTAL TALKSHOW</div>
+      <div class="text-block-17 category">EN İYİ BLOCKCHAİN TABANLI GİRİŞİM</div>
+      <div class="text-block-18 category">EN İYİ DİJİTAL KÜLTÜR MECRASI</div>
+      <div class="text-block-19 category">SOSYAL MEDYAYI EN ETKİN KULLANAN INFLUENCER</div>
+      <div class="text-block-20 category">EN İYİ YERLİ KRİPTOPARA PLATFORMU</div>
+      <div class="text-block-21 category">COMPEC ÖZEL ÖDÜLÜ</div>
+    </div>
+  </section>
+  <section id="contact" class="section-5 wf-section">
+    <a href="vote.html" class="link-2">Hemen Oy Ver!</a>
+    <h3 class="heading-6">İletişim</h3>
+    <a href="mailto:helllo@compec.org" target="_blank" class="link-block w-inline-block">info@compec.org</a>
+    <div class="text-block-22">Copyright © 2022 Tüm hakkı saklıdır. Etkinliğin tüm hakları Compec&#x27;e (Boğaziçi Üniversitesi Bilişim Kulübü) aittir ve etkinliği haber vermeksizin değiştirme yetkisini elinde tutar.</div>
+  </section>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6381473d3a69e9b2e2bfa4c3" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
-
 </html>
