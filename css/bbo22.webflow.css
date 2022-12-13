@@ -937,6 +937,11 @@
 
 }
 
+.middle {
+
+  margin-left: 44% !important;
+}
+
 .div-block-15 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1019,6 +1024,7 @@
 .heading-8 {
   color: #fff;
   text-align: center;
+  margin-bottom: 150px;
 }
 
 .paragraph-4 {
